@@ -14,3 +14,7 @@ after_success:
   - docker build -t rahadiansetya/multi-nginx ./nginx
   - docker build -t rahadiansetya/multi-server ./server
   - docker build -t rahadiansetya/multi-worker ./worker
+  # Log in to docker CLI
+  
+  # Take those images and then push to docker hub
+
